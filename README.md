@@ -36,9 +36,12 @@ qemu-system-x86_64 \
 	-drive file=virtio-win.iso,media=cdrom \
 	-vnc :0 \
 ```
+#### Connect your server using RealVNC & Complete your windows Instalation, don't forget to Enable Remote Desktop
+<br />
 
 ## STEP 2 - Upload Image to Sourceforge
 ### Install sshfs & login to your sourceforge account via sshfs
+
 ```
 apt install sshfs
 mkdir /mnt/temp
